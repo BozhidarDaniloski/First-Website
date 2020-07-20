@@ -3,38 +3,68 @@ p {
 }
 .copy p {
   background: lightcoral;
-  color: red;
+  color: greenyellow;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   width: 100%;
   padding: 20px;
   margin-top: 20px;
-  border: 5px black;
 }
 
-.specs li:nth-child(1) {
-  color: blueviolet;
-}
-h1 p {
+.tab {
+  display: inline-block;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+.specs {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 h1 p {
   background: darkcyan;
   color: white;
-  width: 100%;
-  padding: 20px;
-  margin-top: 20px;
-  border: 5px solid black;
+  padding: 30px;
+  font-size: smaller;
 }
 
 * {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.wrapler ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+body {
   background-color: burlywood;
+  margin: ;
 }
 
 .menu li {
+  text-align: right;
+}
+
+.topline {
+  background-color: lightskyblue;
+  padding: 10px;
+  margin: 0;
+}
+
+.header-name {
+  position: fixed;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  padding: 40px;
+  margin: 0;
   text-align: center;
+  box-sizing: border-box;
 }
